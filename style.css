@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+body , ul {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    font-family: Poppins;
+}
+
+
+
+.logoimg {
+    display: flex;
+    align-items: center;
+}
+
+.logoimg img{
+    width: 40px;
+    margin-left: 1rem;
+}
+
+
+.logoimg h1 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: Poppins;
+    margin-left: 10px;
+    
+    
+}
+
+#header {
+    box-sizing: border-box;
+    height: 70px;
+    display: flex;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#menu {
+    display: flex;
+    list-style: none;
+    margin-left: 128px;
+    
+}
+
+#menu a {
+    display: block;
+    padding: 1.0rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #2c2f44d0;
+}
+
+#menu a:hover {
+    color: #000000;
+}
+
+
+#butu {
+    display: flex;
+    list-style: none;
+    margin-right: 1rem;  
+    
+}
+
+#butu a.op {
+    display: block;
+    justify-content: space-between;
+    padding: 1.0rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #2c2f44d0;
+
+  
+}
+
+#butu a:hover {
+    color: #ffffff;
+}
+
+#butu a {
+    display: block;   
+    font-size: 1.0rem;
+    font-weight: 500;
+    color: #000000;
+    justify-content: space-between;
+}
+
+
+
+.cad:hover {
+    color: #ffffff;
+}
+
+.cad  { 
+
+    background: #7171a59a;
+	font-size: 1.0rem;
+	text-decoration: none;
+	padding: 15px 30px;
+	border-radius: 10px;
+	display: inline-block;
+	border: none;
+	cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+
+
+
+.cad:hover {
+    background: #3a3a5ab9;
+
+}
+
+
+.sob {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.sobu {
+    display: flex;
+    justify-content: center;
+    
+}
+.sobu h1 {
+    color: #393963;
+    font-weight: 600;
+    font-family: Poppins;
+    font-size: 1.0rem;
+    margin-top: 150px;
+ 
+}
+
+.sob h2 {
+    color: #000000;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 2.5rem;
+    margin-top: 30px;
+ 
+  
+}
+
+.sob2 h1 {
+    color: #414164d7;
+    font-weight: 500;
+    font-family: Poppins;
+    font-size: 1.1rem;
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.sob3 h1 {
+    color: #414164d7;
+    font-weight: 500;
+    font-family: Poppins;
+    font-size: 1.1rem;
+    margin-top: -10px;
+   display: flex;
+   justify-content: center;
+}
+
+.metrics {
+    margin-top: 150px;
+    color: #242742;
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    font-family: Poppins;
+    font-size: 60px;
+    font-weight: 500;
+ 
+}
+
+.boldis{
+    margin-top: 5px;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    font-family: Poppins;
+    font-size: 1.0rem;
+    font-weight: 600;
+    gap: 9rem;
+}
+
+
+#projet {
+    margin-left: -6px;
+}
+
+#colabora {
+    margin-left: -20px;
+}
+
+#down {
+    margin-left: 2px;
+}
+
+#reviw {
+    margin-left: -2px;
+}
+
+.desc-boldis{
+    margin-top: 15px;
+    color: #414164d7;
+    display: flex;
+    justify-content: center;
+    font-family: Poppins;
+    font-size: 0.8rem;
+    font-weight: 300;
+    gap: 3rem;
+ 
+}
+
+#projet-desc {
+    margin-left:  70px;
+}
+
+#colabora-desc {
+    margin-left: 18px;
+}
+
+#down-desc {
+    margin-left: 2px;
+}
+
+#reviw-desc {
+    margin-left: -15px;
+}
+
+
+.vagas {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    font-family: Poppins;
+    font-size: 1.3rem;
+    font-weight: 300;
+
+}
+
+#vaga {
+    color: #000000;
+    font-weight: 600;
+    margin-top: 100px;
+
+}
+
+#vaga  { 
+    background: #7171a579;
+	font-size: 13px;
+	text-decoration: none;
+	padding: 4px 17px;
+	border-radius: 60px;
+	display: inline-block;
+	border: none;
+	cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+/*#vaga {
+    border-bottom: solid #2a2a6470;
+}*/
+
+
+.precis {
+    margin-top: -25px;
+    display: flex;
+    justify-content: center;
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+#procura {
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.precis-desk {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.precis-desc {
+    font-weight: 300;
+    color: #414164d7;
+  
+}
+
+.peoples {
+ 
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+.areas {
+    font-family: Poppins;
+    font-weight: 550;
+    font-size: 1.3rem;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    margin-left: -1142px;
+}
+
+.areas2 {
+    font-family: Poppins;
+    font-weight: 550;
+    font-size: 1.3rem;
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    margin-left: -890px;
+}
+.vagas {    
+    font-family: Poppins;
+
+}
+
+
+
+.title-vagas {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: -1195px;
+    margin-top: 20px;
+    font-family: Poppins;   
+}
+
+.title-vagas2 {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: -1240px;
+    margin-top: 20px;
+    font-family: Poppins;   
+}
+
+.title-vagas3 {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: -1145px;
+    margin-top: 20px;
+    font-family: Poppins;   
+}
+
+
+.title-vagas4 {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: -1082px;
+    margin-top: 20px;
+    font-family: Poppins;   
+}
+
+
+.title-vagas5 {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: -1083px;
+    margin-top: 20px;
+    font-family: Poppins;   
+}
+
+
+
+#titler {
+   
+    margin-top: 10px;
+    font-size: 1.1rem;
+    margin-left: 245px;
+}
+
+#slr{
+    font-family: Poppins;
+    font-size: 1.0rem;
+    display: flex;
+    justify-content: center;
+    margin-left: -855px;
+}
+
+.infosin {
+    font-family: Poppins;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    color: #242742;
+    font-size: 1rem;
+    margin-top: 150px;
+}
+
+.opini {
+    font-family: Poppins;
+    font-size: 2.2rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.opini2 {
+    font-family: Poppins;
+    font-size: 2.2rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+
+.coolimg {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.coolnme {
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+
+.cooldesc {
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    font-family: Poppins;
+    color: #45456dc5;
+}
+
+.conselho {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+.conselho2 {
+    display: flex;
+    justify-content: center;
+    color: #45456dc5;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+main form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main form input {
+    background: #ffffff;
+    width: 300px; /*largura*/
+    height: 50px; /*altura*/
+    padding: 0 0.5rem;
+    margin-top: 1rem;
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-size: 0.9rem;
+    border: 1px solid #3a3a5ab9;
+    border-radius: 8px;
+}
+
+main form input[type="submit"] {
+    cursor:pointer;
+    width: 200px;
+    margin-left: 2rem;
+    border: none;
+    border-radius: 10px;
+    background: #7171a59a;
+    transition: all .3s ease-in-out;
+}
+
+main form input[type="submit"]:hover {
+    background: #3a3a5ab9;
+    color: white;
+}
+
+
+.reserved {
+    font-size: 0.8rem;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #3b3b41b9;
+    font-family: Roboto , sans-serif;
+}
+
